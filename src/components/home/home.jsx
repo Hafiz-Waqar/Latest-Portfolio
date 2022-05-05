@@ -1,30 +1,30 @@
-import './home.css';
-import img from '../props/img2.jpg';
-import Buttons from '../button/button';
-import { BsMouse } from 'react-icons/bs';
+import "./home.css";
+import Ali from "../props/Ali.jpeg";
+import Buttons from "../button/button";
+import { BsMouse } from "react-icons/bs";
 
 function Home() {
   return (
-    <div id='home' className='container home-container'>
-      <div className='logo'>
-        <div className='hover-show'>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
+    <div id="home" className="container home-container">
+      <div className="logo">
+        <div className="hover-show">
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
         </div>
 
-        <img src={img} alt='' />
+        <img src={Ali} alt="" style={{ objectFit: "cover" }} />
       </div>
 
-      <a href='#footer' className='scroll-down'>
+      <a href="#footer" className="scroll-down">
         <hr />
         <h5>scroll down</h5>
-        <BsMouse className='scroll' />
+        <BsMouse className="scroll" />
         <hr />
       </a>
 
